@@ -1,4 +1,4 @@
-import SignInDefault from "components/feature/SignIn";
+import { SignIn as SignInDefault } from "components/feature";
 
 const SignIn = () => {
   return <SignInDefault />;

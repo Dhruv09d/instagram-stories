@@ -23,10 +23,10 @@
     "react": "^17.0.2",
     "react-datepicker": "^4.8.0",
     "react-dom": "^17.0.2",
-    "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.28.0",
     "react-i18next": "^11.8.15",
     "react-imask": "^6.4.2",
+    "react-multi-carousel": "^2.8.5",
     "react-multi-date-picker": "^4.0.0",
     "react-query": "^3.5.16",
     "react-redux": "^7.2.4",
@@ -37,9 +37,9 @@
     "redux-persist": "^6.0.0",
     "source-map-explorer": "^2.5.2",
     "standard-version": "^9.3.2",
+    "swiper": "^11.1.1",
     "typescript": "^4.2.4",
-    "web-vitals": "^1.1.1",
-    "xlsx": "^0.18.5"
+    "web-vitals": "^1.1.1"
   },
   "scripts": {
     "dev": "react-scripts start",

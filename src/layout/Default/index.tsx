@@ -8,9 +8,7 @@ type DefaultLayoutProps = {
 const DefaultLayout = ({ children }: DefaultLayoutProps) => {
   return (
     <Box sx={styles.layout}>
-      <Box sx={styles.wrapper}>
-        <Box>{children}</Box>
-      </Box>{" "}
+      <Box>{children}</Box>
     </Box>
   );
 };

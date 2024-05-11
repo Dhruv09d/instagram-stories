@@ -1,10 +1,7 @@
+import { Home as DefaultHome } from "components/feature";
+
 const Home = () => {
-  return (
-    <>
-      <h2>Home Page</h2>
-      <p>Import your landing page component from features here</p>
-    </>
-  );
+  return <DefaultHome />;
 };
 
 export default Home;
