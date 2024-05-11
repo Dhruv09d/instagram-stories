@@ -1,10 +1,10 @@
 import ArrowBackIosSharpIcon from "@mui/icons-material/ArrowBackIosSharp";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 import { Box } from "@mui/material";
-import { ReactNode } from "react";
+import { Children, ReactNode } from "react";
 import ReactMultiCarousel, { ResponsiveType } from "react-multi-carousel";
-import styles from "./styles";
 import "react-multi-carousel/lib/styles.css";
+import styles from "./styles";
 
 type CarouselProps = {
   children: ReactNode;
@@ -16,6 +16,7 @@ type CarouselProps = {
   autoPlaySpeed?: number;
   showDots?: boolean;
   removeArrowOnDeviceType?: string | string[];
+  onLastItemSwipe?: () => void;
 };
 
 const CustomRightArrow = () => {
@@ -60,7 +61,15 @@ const Carousel = ({
   autoPlaySpeed = 5000,
   showDots = false,
   removeArrowOnDeviceType = ["tablet"],
+  onLastItemSwipe,
+  ...rest
 }: CarouselProps) => {
+  const handleSlideChange = (index: number) => {
+    const totalSlides = Children.count(children);
+    if (index === totalSlides && onLastItemSwipe) {
+      onLastItemSwipe();
+    }
+  };
   return (
     <Box sx={styles.wrapper}>
       <ReactMultiCarousel
@@ -72,6 +81,8 @@ const Carousel = ({
         autoPlaySpeed={autoPlaySpeed}
         showDots={showDots}
         removeArrowOnDeviceType={removeArrowOnDeviceType}
+        afterChange={handleSlideChange}
+        {...rest}
         // itemClass="caraousel-items"
       >
         {children}

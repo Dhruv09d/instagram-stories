@@ -15,15 +15,14 @@ const SignIn = () => {
   const history = useHistory();
 
   const handleSignIn = () => {
-    dispatch(loginUser(""))    
-     history.replace('/')
-
+    dispatch(loginUser(""));
+    history.replace("/");
   };
 
   return (
     <Box sx={styles.wrapper}>
       <Box sx={styles.signIn}>Sign In</Box>
-      <Box sx={styles.heading}>Welcome! to Instagram</Box>\
+      <Box sx={styles.heading}>Welcome! to Instagram</Box>
       <Button label="Login" onClick={handleSignIn} />
     </Box>
   );

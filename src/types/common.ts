@@ -15,11 +15,13 @@ export type StoryType = {
   isVisited?: boolean;
 };
 
+export type StoryDataType = {
+  mediaType: MediaType;
+  src: string;
+};
+
 export type StoriesTypes = {
   id: string;
   metaData: StoryType;
-  stories: {
-    mediaType: MediaType;
-    src: string;
-  }[];
+  stories: StoryDataType[];
 };

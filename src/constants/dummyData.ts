@@ -25,7 +25,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/23516208/pexels-photo-23516208/free-photo-of-a-woman-in-a-white-dress-standing-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "sole_traveller",
+      userName: "sole_traveller_13",
       isVisited: false,
     },
     stories: [
@@ -44,7 +44,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/23516208/pexels-photo-23516208/free-photo-of-a-woman-in-a-white-dress-standing-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "real_sole_traveller",
+      userName: "real_sole_traveller_14",
       isVisited: false,
     },
     stories: [
@@ -63,7 +63,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/21972309/pexels-photo-21972309/free-photo-of-a-girl-with-red-hair-and-a-guitar-sitting-on-a-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "Some_filst!2",
+      userName: "Some_filst!2_15",
       isVisited: false,
     },
     stories: [
@@ -82,7 +82,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/21972309/pexels-photo-21972309/free-photo-of-a-girl-with-red-hair-and-a-guitar-sitting-on-a-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "Kraken_gear_5",
+      userName: "Kraken_gear_5_16",
       isVisited: false,
     },
     stories: [
@@ -101,7 +101,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/21972309/pexels-photo-21972309/free-photo-of-a-girl-with-red-hair-and-a-guitar-sitting-on-a-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "I_random_username_!2",
+      userName: "I_random_username_17",
       isVisited: false,
     },
     stories: [
@@ -120,7 +120,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/23516208/pexels-photo-23516208/free-photo-of-a-woman-in-a-white-dress-standing-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "sole_traveller",
+      userName: "sole_traveller_18",
       isVisited: false,
     },
     stories: [
@@ -139,7 +139,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/23516208/pexels-photo-23516208/free-photo-of-a-woman-in-a-white-dress-standing-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "real_sole_traveller",
+      userName: "real_sole_traveller_19",
       isVisited: false,
     },
     stories: [
@@ -154,7 +154,7 @@ export const storiesData: StoriesTypes[] = [
     ],
   },
   {
-    id: "sdfsadf234234sdfs",
+    id: "sdfsadf234234sdfs_20",
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/21972309/pexels-photo-21972309/free-photo-of-a-girl-with-red-hair-and-a-guitar-sitting-on-a-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -177,7 +177,7 @@ export const storiesData: StoriesTypes[] = [
     metaData: {
       featuredImage:
         "https://images.pexels.com/photos/21972309/pexels-photo-21972309/free-photo-of-a-girl-with-red-hair-and-a-guitar-sitting-on-a-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      userName: "Kraken_gear_5",
+      userName: "Kraken_gear_5_21",
       isVisited: false,
     },
     stories: [
