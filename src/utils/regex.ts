@@ -1,6 +1,5 @@
 const regex = {
   email: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
-  gerryEmail: /^[A-Za-z0-9._%+-]+@mygerry\.com$/,
   pccId: /^[A-Z]{3}[0-9]{3}/,
   contactNumber: /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/,
 

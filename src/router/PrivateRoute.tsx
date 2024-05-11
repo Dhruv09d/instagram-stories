@@ -1,8 +1,8 @@
-import { useSelector } from "react-redux";
 import { Redirect, RouteComponentProps, Route } from "react-router-dom";
 import { RootState } from "redux/reducers";
 import { route } from "constants/routes";
 import { ComponentType } from "react";
+import { useAppSelector } from "redux/store";
 
 type PrivateRouteProps = {
   component: ComponentType;
@@ -11,9 +11,9 @@ type PrivateRouteProps = {
 } & RouteComponentProps;
 
 const PrivateRoute = (props: PrivateRouteProps) => {
-  const { isLoggedIn } = useSelector((state: RootState) => state.user);
-
-  return isLoggedIn ? (
+  const { isLoggedIn } = useAppSelector((state: RootState) => state.user);
+  
+  return isLoggedIn  ? (
     <Route {...props} />
   ) : (
     <Redirect to={route.signIn.path} />

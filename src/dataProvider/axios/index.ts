@@ -45,9 +45,6 @@ async function handleRequest(req: AxiosRequestConfig) {
     return req;
   }
   req.headers.Authorization = `Bearer ${localStorage.getItem(ACCESS_TOKEN)}`;
-  if (req.url === signInUrl) {
-    req.headers["x-role-type"] = "GERRY_ADMIN";
-  }
 
   return req;
 }

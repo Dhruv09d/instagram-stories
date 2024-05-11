@@ -13,8 +13,8 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
         <Box
           sx={styles.image}
           component="img"
-          src="/images/gerryLogo.png"
-          alt="Gerry"
+          src="/assets/images/Logo-Instagram.png"
+          alt="instagram"
         />
       </Box>
       <Box sx={styles.main} className="children">

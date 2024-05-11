@@ -1,2 +1,1 @@
-export { loginUser } from "redux/slices/user";
-export { logoutAction } from "redux/slices/signOut";
+export { loginUser, logoutUser } from "redux/slices/user";
