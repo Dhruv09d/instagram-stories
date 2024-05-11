@@ -18,7 +18,6 @@ const adminInstance = axios.create({
 });
 
 let isRefreshing = false;
-let locationInfo: any;
 
 let failedUserQueue = [];
 
@@ -49,16 +48,6 @@ async function handleRequest(req: AxiosRequestConfig) {
   if (req.url === signInUrl) {
     req.headers["x-role-type"] = "GERRY_ADMIN";
   }
-
-  if (!locationInfo) {
-    try {
-      await fetchLocation();
-    } catch (error) {
-      return error;
-    }
-  }
-
-  req.headers["x-user-location"] = locationInfo;
 
   return req;
 }
